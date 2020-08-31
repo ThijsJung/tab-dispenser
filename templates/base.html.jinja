@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="www.thijsjung.nl/tabs/style.css">
+    <title>{{song_title}} - {{artist_name}}: Thijs Jung tabs</title>
+  </head>
+  <body>
+    <div id="song_info">
+        <table>
+            <tbody>
+                <tr><td>Title</td><td>{{song_title}}</td></tr>
+                <tr><td>Artist</td><td>{{artist_name</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="content">{% block song %}{% endblock %}</div>
+    <div id="footer">
+      &copy; Copyright 2010 by <a href="http://thijsjung.nl">Thijs Jung</a>.
+    </div>
+  </body>
+</html>
